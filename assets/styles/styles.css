@@ -171,11 +171,12 @@ h2.banner.text-light {
 }
 
 .footer input[type="email"] {
-    width: 200%;
+    width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .footer button[type="submit"] {
@@ -184,6 +185,7 @@ h2.banner.text-light {
     color: #4CAF50; /* Color del texto */
     border: none;
     border-radius: 5px;
+    margin-bottom: 10px;
     cursor: pointer;
 }
 
