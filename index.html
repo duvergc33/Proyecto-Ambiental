@@ -17,136 +17,239 @@
 
 <body>
     <header>
-        <div class="container">
-            <img src="./assets/img/logo.jpg" alt="Logo" class="logo">
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#"> Home </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#"> Servicios </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#"> Contactos </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#"> Noticias </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#"> Gráficas </a>
-                </li>
-            </ul>
-        </div>
-    </header>
-
-    <main>
-        <section class="banner text-white">
-            <h3>Bienvenido a BrightSun Energy <i class="bi bi-clipboard-data"></i>: <span class="typing"></span></h3>
-        </section>
-
-        <section class="container my-5">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-6">
-                    <p>
-                        <span class="text-light fw-bold">BrightSun Energy</span>, una visión para un futuro más
-                        sostenible. En un mundo cada vez más consciente de la necesidad de proteger nuestro planeta,
-                        nuestra misión en BrightSun Energy es clara: aprovechar la energía del sol para impulsar un
-                        cambio positivo. Nos dedicamos a desarrollar soluciones innovadoras que no solo satisfacen las
-                        necesidades energéticas del presente, sino que también protegen y preservan nuestro entorno
-                        natural para las generaciones venideras. Únete a nosotros en nuestro viaje hacia un mundo más
-                        limpio y brillante.
-
-                    </p>
-                    <ul class="nav nav-pills mx-auto justify-content-center text-center" id="pills-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link btn-primary active text-secondary" id="pills-home-tab"
-                                data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
-                                aria-controls="pills-home">
-                                <i class="bi bi-person fs-2"></i>
-                                <p>Quiénes Somos</p>
-                            </button>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo.jpg" alt="Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link btn-primary text-secondary" id="pills-profile-tab"
-                                data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
-                                aria-controls="pills-profile">
-                                <i class="bi bi-envelope-check-fill fs-2"></i>
-                                <p>Qué Ofrecemos</p>
-                            </button>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link btn-primary text-secondary" id="pills-contact-tab"
-                                data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
-                                aria-controls="pills-contact">
-                                <i class="bi bi-search-heart-fill fs-2"></i>
-                                <p>Qué Buscamos</p>
-                            </button>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gráficas</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-4 text-end border-start">
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                            aria-labelledby="pills-home-tab" tabindex="0">
-                            <p>
-                                BrightSun Energy es una empresa pionera en Medellín dedicada a promover el uso de
-                                paneles solares y facilitar la venta de excedentes de energía a empresas públicas en la
-                                región. Con una visión de futuro y un compromiso con la sostenibilidad, hemos reunido un
-                                equipo de expertos en energía solar y gestión energética para liderar la transición
-                                hacia un modelo energético más limpio y eficiente.
-                            </p>
-                        </div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                            aria-labelledby="pills-profile-tab" tabindex="0">
-                            <p>
-                                En BrightSun Energy, ofrecemos una gama completa de servicios relacionados con la
-                                energía solar. Desde la evaluación y diseño de sistemas solares personalizados hasta la
-                                instalación y mantenimiento, estamos aquí para ayudar a las empresas a aprovechar al
-                                máximo el potencial de la energía solar. Además, facilitamos la conexión y venta de
-                                excedentes de energía a empresas públicas en Medellín, permitiendo a nuestros clientes
-                                no solo reducir sus costos energéticos, sino también contribuir a la construcción de una
-                                red eléctrica más sostenible y resiliente.
-                            </p>
-                        </div>
-                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                            aria-labelledby="pills-contact-tab" tabindex="0">
-                            <p>
-                                Nuestro objetivo en BrightSun Energy es impulsar la adopción de energía solar y promover
-                                la generación distribuida en Medellín. Buscamos colaborar con empresas públicas y
-                                privadas para maximizar el uso de energía renovable y reducir la dependencia de
-                                combustibles fósiles. Al facilitar la venta de excedentes de energía, queremos crear un
-                                ecosistema energético más inclusivo y dinámico que beneficie a toda la comunidad.
-                                Estamos comprometidos con el desarrollo sostenible y esperamos trabajar con empresas que
-                                compartan nuestra visión de un futuro más limpio y próspero para Medellín.
-                            </p>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <section class="banner text-white">
+                <h3>Bienvenido a BrightSun Energy <i class="bi bi-clipboard-data"></i>: <span class="typing"></span></h3>
+            </section>
+
+            <section class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6">
+                        <p>
+                            <span class="text-light fw-bold">BrightSun Energy</span>, una visión para un futuro más
+                            sostenible. En un mundo cada vez más consciente de la necesidad de proteger nuestro planeta,
+                            nuestra misión en BrightSun Energy es clara: aprovechar la energía del sol para impulsar un
+                            cambio positivo. Nos dedicamos a desarrollar soluciones innovadoras que no solo satisfacen las
+                            necesidades energéticas del presente, sino que también protegen y preservan nuestro entorno
+                            natural para las generaciones venideras. Únete a nosotros en nuestro viaje hacia un mundo más
+                            limpio y brillante.
+                        </p>
+                        <ul class="nav nav-pills mx-auto justify-content-center text-center" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link btn-primary active text-secondary" id="pills-home-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                                    aria-controls="pills-home">
+                                    <i class="bi bi-person fs-2"></i>
+                                    <p>Quiénes Somos</p>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link btn-primary text-secondary" id="pills-profile-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile">
+                                    <i class="bi bi-envelope-check-fill fs-2"></i>
+                                    <p>Qué Ofrecemos</p>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link btn-primary text-secondary" id="pills-contact-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact">
+                                    <i class="bi bi-search-heart-fill fs-2"></i>
+                                    <p>Qué Buscamos</p>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 text-end border-start">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab" tabindex="0">
+                                <p>
+                                    BrightSun Energy es una empresa pionera en Medellín dedicada a promover el uso de
+                                    paneles solares y facilitar la venta de excedentes de energía a empresas públicas en la
+                                    región. Con una visión de futuro y un compromiso con la sostenibilidad, hemos reunido un
+                                    equipo de expertos en energía solar y gestión energética para liderar la transición
+                                    hacia un modelo energético más limpio y eficiente.
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab" tabindex="0">
+                                <p>
+                                    En BrightSun Energy, ofrecemos una gama completa de servicios relacionados con la
+                                    energía solar. Desde la evaluación y diseño de sistemas solares personalizados hasta la
+                                    instalación y mantenimiento, estamos aquí para ayudar a las empresas a aprovechar al
+                                    máximo el potencial de la energía solar. Además, facilitamos la conexión y venta de
+                                    excedentes de energía a empresas públicas en Medellín, permitiendo a nuestros clientes
+                                    no solo reducir sus costos energéticos, sino también contribuir a la construcción de una
+                                    red eléctrica más sostenible y resiliente.
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                aria-labelledby="pills-contact-tab" tabindex="0">
+                                <p>
+                                    Nuestro objetivo en BrightSun Energy es impulsar la adopción de energía solar y promover
+                                    la generación distribuida en Medellín. Buscamos colaborar con empresas públicas y
+                                    privadas para maximizar el uso de energía renovable y reducir la dependencia de
+                                    combustibles fósiles. Al facilitar la venta de excedentes de energía, queremos crear un
+                                    ecosistema energético más inclusivo y dinámico que beneficie a toda la comunidad.
+                                    Estamos comprometidos con el desarrollo sostenible y esperamos trabajar con empresas que
+                                    compartan nuestra visión de un futuro más limpio y próspero para Medellín.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section>
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="/assets/img/1.avif" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/assets/img/2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/assets/img/3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/assets/img/4.jpg" class="d-block w-100" alt="...">
+            <section>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/assets/img/1.avif" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/2.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/3.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/4.jpg" class="d-block w-100" alt=".">
+                        </div>
                     </div>
                 </div>
+            </section>
+
+            <h2 class="banner text-light">Datos Importantes</h2>
+
+            <section class="container my-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="video-container">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/X1wvsVKYJEA?si=Kkd4QUxcmtXqkDIu" frameborder="0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            <span class="text-light fw-bold">Reducción de emisiones de carbono:</span>La energía solar es
+                            una fuente de energía limpia y renovable que no produce emisiones de gases de efecto invernadero
+                            durante su operación. Esto significa que su uso en lugar de fuentes de energía convencionales
+                            como el carbón, el gas natural o el petróleo contribuye directamente a la reducción de las
+                            emisiones de carbono y otros contaminantes atmosféricos.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="container my-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            <span class="text-light fw-bold">Ahorro de recursos naturales:</span>Al aprovechar la energía del
+                            sol, los paneles solares ayudan a reducir la dependencia de los recursos naturales no renovables,
+                            como el petróleo y el gas natural. Esto preserva estos recursos para las generaciones futuras y
+                            reduce la necesidad de explotación de áreas sensibles como reservas naturales y zonas de
+                            biodiversidad.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/qend1zy1tF0?si=vViCyVVMMiSriZeb"
+                                frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container my-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            <span class="text-light fw-bold">Menor consumo de agua:</span>A diferencia de las centrales eléctricas que utilizan combustibles fósiles o nucleares, las instalaciones solares no requieren grandes cantidades de agua para su operación. Esto es especialmente relevante en regiones propensas a la escasez de agua, donde el uso de energía solar puede ayudar a conservar este recurso vital.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            <span class="text-light fw-bold">Minimización de residuos:</span>La vida útil de los paneles solares es larga, y al final de su vida útil, pueden reciclarse para recuperar materiales valiosos como silicio, aluminio y vidrio. Esto reduce la cantidad de residuos electrónicos y ayuda a cerrar el ciclo de materiales, disminuyendo la necesidad de extraer y procesar nuevos recursos.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col text-light">
+                    <h3>Quiénes Somos</h3>
+                    <p>Conoce más sobre nuestra empresa y valores.</p>
+                    <a href="ruta-a-quienes-somos.html" class="footer-link">Leer más</a>
+                </div>
+                <div class="col text-light">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><a href="mailto:info@ejemplo.com">info@ejemplo.com</a></li>
+                        <li><a href="tel:+1234567890">+1 234 567 890</a></li>
+                    </ul>
+                </div>
+                <div class="col text-light">
+                    <h3>Síguenos</h3>
+                    <ul class="social-media-links">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col text-light">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Términos de Servicio</a></li>
+                        <li><a href="#">Mapa del Sitio</a></li>
+                    </ul>
+                </div>
+                <div class="col text-light">
+                    <h3>Suscríbete</h3>
+                    <p>Recibe las últimas noticias y ofertas especiales.</p>
+                    <form action="suscripcion.php" method="post">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
             </div>
-        </section>
-    </main>
-
-    <footer>
-
+        </div>
     </footer>
     <script src="./controllers/controlMaquina.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
