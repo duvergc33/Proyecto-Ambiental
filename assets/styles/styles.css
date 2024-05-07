@@ -13,8 +13,14 @@ body {
     
 }
 
+
+
 .banner{
     text-align: center;
+}
+
+h2 {
+    color: white;
 }
 
 /* Estilo del contenedor del encabezado */
@@ -66,6 +72,8 @@ body {
     border-bottom: 2px solid transparent; /* Línea transparente por defecto */
     transition: border-bottom-color 0.3s ease; /* Transición suave para el color de la línea */
 }
+
+
 
 p {
     color: rgb(135, 133, 133);
