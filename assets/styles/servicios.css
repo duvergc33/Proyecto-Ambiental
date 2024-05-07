@@ -15,12 +15,10 @@ body {
 
 
 
+
+
 .banner{
     text-align: center;
-}
-
-h2 {
-    color: white;
 }
 
 /* Estilo del contenedor del encabezado */
@@ -69,23 +67,15 @@ h2 {
     transition: border-bottom-color 0.3s ease; /* Transición suave para el color de la línea */
 }
 
-
-
 p {
     color: rgb(135, 133, 133);
     font-weight: bold;
 }
 
-/* Estilos para el carousel */
-#carouselExampleAutoplaying {
-    margin: auto; /* Centra horizontalmente el carrusel */
-    width: 100%; /* Define el ancho del carrusel */
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: aliceblue !important;
 }
 
-.carousel-item img {
-    width: 100%; /* Hace que las imágenes sean responsivas y ocupen todo el ancho del carrusel */
-    height: 300%; /* Ajusta automáticamente la altura de las imágenes para mantener la proporción */
-    max-height: 400px; /* Define la altura máxima de las imágenes */
-    object-fit: contain; /* Hace que las imágenes se ajusten dentro de sus contenedores sin recortarlas */
-}
 
