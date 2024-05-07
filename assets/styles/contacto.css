@@ -1,0 +1,137 @@
+body {
+    background-image: url("../img/fondo.jpg"); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.banner{
+    text-align: center;
+}
+
+/* Estilo del contenedor del encabezado */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0; 
+}
+
+/* Estilo del logo */
+.logo {
+    max-width: 100px; 
+    margin-right: 10px; 
+}
+
+/* Estilo de la barra de navegación */
+.navbar-light .navbar-toggler {
+    border-color: rgb(135, 133, 133);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke=' rgb(135, 133, 133') stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.button-color{
+    background-color: #fff !important;
+}
+
+.nav.nav-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo de los elementos de la lista de navegación */
+.nav.nav-tabs .nav-item {
+    margin-right: 20px;
+}
+
+/* Estilo de los enlaces de la lista de navegación */
+.nav.nav-tabs .nav-item a {
+    text-decoration: none;
+    color: rgb(135, 133, 133); /* Color del texto */
+    font-weight: bold;
+    padding: 10px 70px;
+    border-bottom: 2px solid transparent; /* Línea transparente por defecto */
+    transition: border-bottom-color 0.3s ease; /* Transición suave para el color de la línea */
+}
+
+p {
+    color: rgb(135, 133, 133);
+    font-weight: bold;
+}
+
+
+
+
+
+
+body-1 {
+    font-family: Arial, sans-serif;
+    background-color:  rgb(135, 133, 133);
+    margin: 0;
+    padding: 0;
+    color: #fff; 
+}
+
+.container-2 {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    /* Eliminar background-color para hacer el contenedor transparente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(135, 133, 133);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* Establecer un fondo transparente para el formulario */
+    background-color: transparent;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #eee; /* Cambiar el color del borde del campo de entrada */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #a19d9de3; /* Cambiar el color de fondo del campo de entrada */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #525353;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

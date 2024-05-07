@@ -1,0 +1,108 @@
+body {
+    background-image: url("../img/fondo.jpg"); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.banner{
+    text-align: center;
+}
+
+/* Estilo del contenedor del encabezado */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0; 
+}
+
+/* Estilo del logo */
+.logo {
+    max-width: 100px; 
+    margin-right: 10px; 
+}
+
+/* Estilo de la barra de navegación */
+.navbar-light .navbar-toggler {
+    border-color: rgb(135, 133, 133);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke=' rgb(135, 133, 133') stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.button-color{
+    background-color: #fff !important;
+}
+
+.nav.nav-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo de los elementos de la lista de navegación */
+.nav.nav-tabs .nav-item {
+    margin-right: 20px;
+}
+
+/* Estilo de los enlaces de la lista de navegación */
+.nav.nav-tabs .nav-item a {
+    text-decoration: none;
+    color: rgb(135, 133, 133); /* Color del texto */
+    font-weight: bold;
+    padding: 10px 70px;
+    border-bottom: 2px solid transparent; /* Línea transparente por defecto */
+    transition: border-bottom-color 0.3s ease; /* Transición suave para el color de la línea */
+}
+
+p {
+    color: rgb(201, 198, 198);
+    font-weight: bold;
+}
+
+
+.container-1 {
+    display: flex; /* Usar flexbox para alinear elementos */
+    align-items: center; /* Alinear verticalmente los elementos */
+    padding: 10px;
+}
+
+.container-1 img {
+    width: 100%; /* Ancho de la imagen */
+    height: 50%; /* Alto de la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    margin-right: 20px;
+    padding-top: 28px;
+}
+
+.container-2 {
+    display: flex; /* Usar flexbox para alinear elementos */
+    align-items: center; /* Alinear verticalmente los elementos */
+    padding: 10px;
+}
+
+.container-2 img {
+    width: 50%; /* Ancho de la imagen */
+    height: 50%; /* Alto de la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    margin-right: 20px;
+}
+
+h1 {
+    color: rgb(255, 251, 251);
+    font-weight: bold;
+    text-align: center;
+}
+
