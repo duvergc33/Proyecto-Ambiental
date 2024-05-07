@@ -13,14 +13,8 @@ body {
     
 }
 
-
-
 .banner{
     text-align: center;
-}
-
-h2 {
-    color: white;
 }
 
 /* Estilo del contenedor del encabezado */
@@ -73,132 +67,71 @@ h2 {
     transition: border-bottom-color 0.3s ease; /* Transición suave para el color de la línea */
 }
 
-
-
 p {
     color: rgb(135, 133, 133);
     font-weight: bold;
 }
 
-/* Estilos para el carousel */
-#carouselExampleAutoplaying {
-    margin: auto; 
-    width: 100%; 
-}
-
-.carousel-item img {
-    width: 100%; 
-    height: 300%; 
-    max-height: 400px; 
-    object-fit: contain; 
-}
-
-h2.banner.text-light {
-    font-size: 32px; 
-    font-weight: bold; 
-    color: #fff; 
-    margin: 20px 0; 
-    text-align: center;
-}
 
 
 
-/* Estilos para los videos */
-.section-container .video-container {
-    position: relative;
-    width: 560;
-    padding-bottom: 56.25%;
-    overflow: hidden;
-}
 
-.section-container .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
-.footer {
-    background-color:  rgb(50, 50, 50); /* Color de fondo */
-    padding: 5px 0;
-    color: #fff;
-    text-align: center;
-}
-
-.footer .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.footer p {
-    margin-bottom: 20px;
-}
-
-.footer ul {
-    list-style: none;
+body-1 {
+    font-family: Arial, sans-serif;
+    background-color:  rgb(135, 133, 133);
+    margin: 0;
     padding: 0;
+    color: #fff; 
 }
 
-.footer ul li {
-    margin-bottom: 10px;
+.container-2 {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    /* Eliminar background-color para hacer el contenedor transparente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.footer-link {
-    color: #fff;
-    text-decoration: none;
+h2 {
+    text-align: center;
+    color: rgb(135, 133, 133);
 }
 
-.footer-link:hover {
-    text-decoration: underline;
-}
-
-.social-media-links li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.social-media-links a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.social-media-links a:hover {
-    text-decoration: underline;
-}
-
-.footer form {
+form {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
+    /* Establecer un fondo transparente para el formulario */
+    background-color: transparent;
 }
 
-.footer input[type="email"] {
-    width: 100%;
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
     padding: 10px;
-    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border: 1px solid #eee; /* Cambiar el color del borde del campo de entrada */
     border-radius: 5px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #a19d9de3; /* Cambiar el color de fondo del campo de entrada */
 }
 
-.footer button[type="submit"] {
+button {
     padding: 10px 20px;
-    background-color: #fff; /* Color de fondo del botón */
-    color: #4CAF50; /* Color del texto */
+    background-color: #525353;
+    color: #fff;
     border: none;
     border-radius: 5px;
-    margin-bottom: 10px;
+    font-size: 16px;
     cursor: pointer;
 }
 
-.footer button[type="submit"]:hover {
-    background-color: #eee; /* Cambia el color de fondo al pasar el mouse */
+button:hover {
+    background-color: #0056b3;
 }
-
-
